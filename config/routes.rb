@@ -5,6 +5,7 @@ Rails.application.routes.draw do
       post 'formulas/create'
       get '/show/:id', to: 'formulas#show'
       delete '/destroy/:id', to: 'formulas#destroy'
+
     end
   end
   root 'homepage#index'
